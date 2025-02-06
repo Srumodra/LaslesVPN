@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Rubik";
-    src: url("../fonts/Rubik/Rubik.woff") format("woff"),
-        url("../fonts/Rubik/Rubik.woff2") format("woff2"),
-        url("../fonts/Rubik/Rubik.ttf") format("ttf");
+    src: url("../fonts/Rubik/Rubik-Regular.woff") format("woff"),
+        url("../fonts/Rubik/Rubik-Regular.woff2") format("woff2"),
+        url("../fonts/Rubik/Rubik-Regular.ttf") format("ttf");
     font-style: normal;
     font-display: swap;
 }
