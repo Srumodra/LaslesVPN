@@ -1,5 +1,12 @@
 @import url("./fonts.css");
 
-h1, h2, h3, h4, h5, h6, span, label, ul, p, button {
+ span, label, ul, p, button {
     font-family: 'Rubik';
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik';
+    font-weight: 500;
+}
+b {
+    font-weight: 700;
 }
