@@ -78,28 +78,33 @@
   .main__welcome-block {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
   }
-  ,.main__welcome-block-info{
-    margin: 130px 736px 20px auto;
+  .main__welcome-block-text {
+    display: block;
+    width: 555px;
+    /* margin: 130px 736px 20px auto;     */
   }
-  .main__welcome-block-info h1 {
+  .main__welcome-block-text h1 {
     font-size: 50px;
     line-height: 70px;
     font-weight: 500;
   }
 
-  .main__welcome-block-info-bold-name-1 {
+  .main__welcome-block-text-bold-name-1 {
     font-weight: 700;
     font-size: 50px;
     line-height: 70px;
   }
-  .main__welcome-block-info p {
+  .main__welcome-block-text p {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     color: #4F5665;
+    margin-bottom: 50px;
   }
-  .main__welcome-block-info-bold-name-2 {
+  .main__welcome-block-text-bold-name-2 {
     font-weight: 600;
     font-size: 16px;
     line-height: 30px;
@@ -120,8 +125,8 @@
     box-shadow: 0px 30px 54px 2px rgba(245, 56, 56, 0.35);
   }
   
-  .main__welcome-block-info--img {
+  .main__welcome-block-img {
     display: flex;
-    margin: 89px auto auto 42px;
+    /* margin: 89px auto auto 42px; */
   }
    
