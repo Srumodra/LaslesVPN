@@ -163,3 +163,39 @@
     display: flex;    
   }
 
+.main__features {
+  display: flex;
+  justify-content: space-between;  
+}
+.main__features-img {
+  display: block;
+  margin-left: 184px;
+}
+
+.main__features-description {
+  display: block;
+  margin-left: 110px;
+}
+  d
+.main__features-description h1 {
+  color: #0B132A;
+  margin-right: 195px;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.main__features-description p {
+  color: #4F5665;
+  font-size: 16px;
+  font-weight: 400;
+  margin: auto 150px 20px 170px;
+  width: 430px;
+}
+
+.main__features-description ul {
+  list-style: none;
+  list-style-image: url(../public/marker-features.svg);
+  /* margin: auto auto 210px 200px; */
+  color: #4F5665;
+  ;
+}
