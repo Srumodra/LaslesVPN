@@ -243,32 +243,41 @@
 
 .main__plan-selection {
   display: flex;
-  justify-content:space-between;
   gap: 60px
 }
 .main__plan-selection-img {
   margin: 80px 90px 30px 90px;
 }
 
-.main__plan-selection-free {
+.main__plan-selection-tariffs {
+  display: block;
   width: 330px;
   height: 760px;
   border: 2px solid #DDDDDD;
   border-radius: 10px;
+  text-align: center;
 }
 
-
-.main__plan-selection-standart {
-  width: 330px;
-  height: 760px;
-  border: 2px solid #DDDDDD;
-  border-radius: 10px;
+.main__plan-selection-tariffs h1 {
+  color: #0B132A;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500 bold;
 }
 
-.main__plan-selection-premium {
-  width: 330px;
-  height: 760px;
-  border: 2px solid #DDDDDD;
-  border-radius: 10px;
+.main__plan-selection-tariffs ul {
+  color: #4F5665;
+  line-height: 30px;
+  font-size: 14px;
+  padding-left: 70px;
+  text-align: center;
+  align-self: stretch;
+}
+
+.main__plan-selection-tariffs li {
+  padding-left: 20px;
+  list-style: none;
+  background: url(../public/marker_plan.svg) no-repeat;
+  
 }
 
