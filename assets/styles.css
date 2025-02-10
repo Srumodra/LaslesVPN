@@ -184,7 +184,7 @@
   color: #0B132A;
   margin-right: 195px;
   font-size: 35px;
-  font-weight: 500; 
+  font-weight: 500 bold; 
   line-height: 50px; 
 }
 
@@ -215,4 +215,27 @@
 
 .main__plan {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.main__plan-title {
+  display: block;
+  width: 555px;
+  margin: 0px 441px 60px 441px;
+  
+}
+.main__plan-title h1 {
+  text-align: center;
+  line-height: 50px;
+  font-size: 35px;
+  font-weight: 500 bold;
+  color:#0B132A;
+  margin-bottom: 20px;
+}
+.main__plan-title p {
+  text-align: center;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #4F5665;
 }
