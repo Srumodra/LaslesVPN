@@ -73,6 +73,8 @@
 
   .buttons-item--transparent-red:hover {
     box-shadow: 0px 30px 54px 2px rgba(245, 56, 56, 0.35);
+    background-color: red;
+    color: #FFFFFF;
   }
 
   .main {
@@ -196,13 +198,21 @@
 }
 
 .main__features-description ul {
-  list-style: none;
-  list-style-image: url(../public/marker-features.svg);
+  /* list-style: none;
+  list-style-image: url(../public/marker-features.svg); */
   /* margin: auto auto 210px 200px; */
   color: #4F5665;
   align-items: center;
+  line-height: 30px;
 } 
 
 .main__features-description li {
-  padding-left: 10px;
+  padding-left: 34px;
+  padding-bottom: 15px;
+  list-style: none;
+  background: url(../public/marker-features.svg) no-repeat;
+}
+
+.main__plan {
+  display: flex;
 }
