@@ -215,7 +215,7 @@
 
 .main__plan {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .main__plan-title {
@@ -238,4 +238,37 @@
   font-weight: 400;
   font-size: 16px;
   color: #4F5665;
+  margin-bottom: 60px;
 }
+
+.main__plan-selection {
+  display: flex;
+  justify-content:space-between;
+  gap: 60px
+}
+.main__plan-selection-img {
+  margin: 80px 90px 30px 90px;
+}
+
+.main__plan-selection-free {
+  width: 330px;
+  height: 760px;
+  border: 2px solid #DDDDDD;
+  border-radius: 10px;
+}
+
+
+.main__plan-selection-standart {
+  width: 330px;
+  height: 760px;
+  border: 2px solid #DDDDDD;
+  border-radius: 10px;
+}
+
+.main__plan-selection-premium {
+  width: 330px;
+  height: 760px;
+  border: 2px solid #DDDDDD;
+  border-radius: 10px;
+}
+
