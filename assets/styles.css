@@ -170,25 +170,28 @@
 .main__features-img {
   display: block;
   margin-left: 184px;
+  margin-top: 53px;
 }
 
 .main__features-description {
   display: block;
-  margin-left: 110px;
+  margin: 107px 150px 210px 170px;
 }
-  d
+ 
 .main__features-description h1 {
   color: #0B132A;
   margin-right: 195px;
   font-size: 35px;
-  font-weight: 500;
+  font-weight: 500; 
+  line-height: 50px; 
 }
 
 .main__features-description p {
   color: #4F5665;
   font-size: 16px;
   font-weight: 400;
-  margin: auto 150px 20px 170px;
+  line-height: 30px;
+  margin: 20px 150px 20px auto;
   width: 430px;
 }
 
@@ -197,5 +200,9 @@
   list-style-image: url(../public/marker-features.svg);
   /* margin: auto auto 210px 200px; */
   color: #4F5665;
-  ;
+  align-items: center;
+} 
+
+.main__features-description li {
+  padding-left: 10px;
 }
