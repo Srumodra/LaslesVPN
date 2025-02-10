@@ -255,27 +255,50 @@
   height: 760px;
   border: 2px solid #DDDDDD;
   border-radius: 10px;
-  text-align: center;
+  /* text-align: center; */
 }
 
-.main__plan-selection-tariffs h1 {
+.main__plan-selection-tariffs--wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__plan-selection-tariffs--wrapper h1 {
   color: #0B132A;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 30px;
   font-weight: 500 bold;
+  text-align: center;
+  margin-top: 130px;
+}
+.main__plan-selection-tariffs--wrapper h2 {
+  color: #0B132A;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 500 bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.main__plan-selection-tariffs--wrapper span {
+  color: #0B132A;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-.main__plan-selection-tariffs ul {
+.main__plan-selection-tariffs--wrapper ul {
   color: #4F5665;
   line-height: 30px;
   font-size: 14px;
   padding-left: 70px;
-  text-align: center;
-  align-self: stretch;
+   align-self: stretch;
 }
 
-.main__plan-selection-tariffs li {
-  padding-left: 20px;
+.main__plan-selection-tariffs--wrapper li {
+  line-height: 30px;
+  padding-left: 34px;
   list-style: none;
   background: url(../public/marker_plan.svg) no-repeat;
   
