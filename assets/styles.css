@@ -255,7 +255,6 @@
   height: 760px;
   border: 2px solid #DDDDDD;
   border-radius: 10px;
-  /* text-align: center; */
 }
 
 .main__plan-selection-tariffs--wrapper {
@@ -279,21 +278,12 @@
   text-align: center;
   margin-bottom: 30px;
 }
-.main__plan-selection-tariffs--wrapper span {
-  color: #0B132A;
-  font-size: 25px;
-  line-height: 25px;
-  font-weight: 400;
-  text-align: center;
-  margin-bottom: 30px;
-}
 
 .main__plan-selection-tariffs--wrapper ul {
   color: #4F5665;
   line-height: 30px;
   font-size: 14px;
   padding-left: 70px;
-   align-self: stretch;
 }
 
 .main__plan-selection-tariffs--wrapper li {
@@ -304,3 +294,18 @@
   
 }
 
+.main__plan-selection-tariffs--wrapper span {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #4F5665;
+}
+
+.main__plan-selection-tariffs--buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+/* .alignment {
+  margin: 20px 76px 50px 76px;
+} */
