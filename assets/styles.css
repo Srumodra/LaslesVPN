@@ -124,9 +124,8 @@
     font-size: 16px;
     background-color: #F53838;
     color: #FFFFFF;
-    border:  1px solid #F53838;
+    border:  2px solid #F53838;
     border-radius: 10px;
-    padding: 17px 77px;
     transition: 0.2s;
     cursor: pointer;
   }
@@ -245,9 +244,6 @@
   display: flex;
   gap: 60px
 }
-.main__plan-selection-img {
-  margin: 80px 90px 30px 90px;
-}
 
 .main__plan-selection-tariffs {
   display: block;
@@ -257,9 +253,46 @@
   border-radius: 10px;
 }
 
+.main__plan-selection-tariffs:hover {
+  border: 2px solid red;
+  cursor: pointer;
+}
+
 .main__plan-selection-tariffs--wrapper {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.main__plan-selection-img {
+  margin: 80px 90px 30px 90px;
+  width: 145px;
+  height: auto;
+}
+
+.main__plan-selection-tariffs--wrapper h2 {
+  color: #0B132A;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 500 bold;
+  margin-bottom: 30px;
+}
+
+.main__plan-selection-list {
+  width: 191px;
+  height: auto;
+}
+.main__plan-selection-tariffs--wrapper ul {
+  font-weight: 400;
+  color: #4F5665;
+  line-height: 35px;
+  font-size: 14px;
+}
+
+.main__plan-selection-tariffs--wrapper li {
+  padding-left: 34px;
+  list-style: none;
+  background: url(../public/marker_plan.svg) no-repeat;  
 }
 
 .main__plan-selection-tariffs--wrapper h1 {
@@ -267,33 +300,8 @@
   font-size: 25px;
   line-height: 30px;
   font-weight: 500 bold;
-  text-align: center;
-  margin-top: 130px;
+  margin-bottom: 20px;
 }
-.main__plan-selection-tariffs--wrapper h2 {
-  color: #0B132A;
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: 500 bold;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.main__plan-selection-tariffs--wrapper ul {
-  color: #4F5665;
-  line-height: 30px;
-  font-size: 14px;
-  padding-left: 70px;
-}
-
-.main__plan-selection-tariffs--wrapper li {
-  line-height: 30px;
-  padding-left: 34px;
-  list-style: none;
-  background: url(../public/marker_plan.svg) no-repeat;
-  
-}
-
 .main__plan-selection-tariffs--wrapper span {
   font-weight: 400;
   font-size: 25px;
@@ -301,11 +309,28 @@
   color: #4F5665;
 }
 
+.main__plan-selection-tariffs-price-free {
+ display: flex;
+ margin-top: 130px;
+}
+ 
+
+ .main__plan-selection-tariffs-price-standart {
+  display: inline-block;
+  padding-top: 90px;
+ }
+ 
+ .main__plan-selection-tariffs-price-premium {
+  display: block;
+  margin-top: 50px;
+ }
+
 .main__plan-selection-tariffs--buttons {
   display: flex;
   justify-content: center;
-  margin-top: auto;
+  margin-bottom: 50px;
 }
-/* .alignment {
-  margin: 20px 76px 50px 76px;
-} */
+.main__plan-selectionbutton-buttons {
+  width: 178px;
+  height: auto;
+}
