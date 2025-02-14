@@ -347,4 +347,10 @@
 .main__location-title h1 {
   text-align: center;
   padding-top: 150px;
+  /* width: 380px;
+  height: 100px; */
 } 
+
+.main__location-map {
+  display: flex;
+}
