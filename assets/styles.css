@@ -370,10 +370,31 @@
 
 .main__reviews {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.main__reviews-title h1 {
+.main__reviews-title {
+  width: 100%;
   text-align: center;
-  margin-bottom: 20px;
+}  
+
+.main__reviews-title p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+  margin-top: 20px;
+}
+
+.main__reviews-slider {
+  display: flex;
+  flex-flow: nowrap row
+}
+
+.main__reviews-slider-item-main {
+  border: 2px solid #F53838;
+  border-radius: 10px;
+  width: 400px;
+  height: 230px;
 }
