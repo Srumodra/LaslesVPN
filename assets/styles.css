@@ -376,6 +376,7 @@
 .main__reviews-title {
   width: 100%;
   text-align: center;
+  margin-top: 60px;
 }  
 
 .main__reviews-title p {
@@ -400,6 +401,8 @@
 }
 
 .main__reviews-slider-item-main {
+  display: flex;
+  
   border: 2px solid #DDDDDD;
   border-radius: 10px;
   width: 400px;
@@ -410,6 +413,7 @@
   border: 2px solid #F53838;
 }
 
-.main__reviews-slider-item-main {
-  display: block;
+.main__reviews-slider-item-main-rating {
+  position: relative;
+  top: 45px;
 }
