@@ -370,8 +370,7 @@
 
 .main__reviews {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 
 .main__reviews-title {
@@ -389,12 +388,28 @@
 
 .main__reviews-slider {
   display: flex;
-  flex-flow: nowrap row
+  flex-wrap: nowrap;
+  
+  margin-top: 60px;
+}
+
+.main__reviews-slider-item {
+  display: flex;
+  gap: 50px;
+  margin-left: 150px;
 }
 
 .main__reviews-slider-item-main {
-  border: 2px solid #F53838;
+  border: 2px solid #DDDDDD;
   border-radius: 10px;
   width: 400px;
   height: 230px;
+}
+
+.main__reviews-slider-item-main:hover {
+  border: 2px solid #F53838;
+}
+
+.main__reviews-slider-item-main {
+  display: block;
 }
