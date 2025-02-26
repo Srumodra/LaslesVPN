@@ -390,6 +390,7 @@
 
 .main__reviews-slider {
   display: flex;
+  flex-direction: column;
 }
 
 
@@ -404,7 +405,7 @@
 .main__reviews-slider-item-main {
   display: flex;
   flex-wrap: wrap;
-   justify-content: space-between;
+  justify-content: space-between;
   border: 2px solid #DDDDDD;
   border-radius: 10px;
   width: 400px;
@@ -456,3 +457,31 @@
   font-weight: 400;
 }
 
+.main__reviews-slider-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__reviews-slider-icon-select img {
+  margin-right: 15px;
+}
+
+.main__reviews-slider-icon-buttons button{
+  margin-left: 20px;  
+  border: 2px solid red;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  fill: red
+}
+
+.main__reviews-slider-icon-buttons button:hover {
+  fill: white;
+  background-color: red;
+  transition: 0.2s;
+}
+
+.main__reviews-slider-icon-buttons-right {
+  transform: rotate(180deg);
+}
