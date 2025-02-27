@@ -485,3 +485,26 @@
 .main__reviews-slider-icon-buttons-right {
   transform: rotate(180deg);
 }
+
+.main__subscribe {
+  display: flex;
+  justify-content: space-between; 
+  margin: 65px;
+  width: 1140px;
+  height: 233px; 
+  padding-left: 70px;
+  padding-top: 65px;
+}
+.main__subscribe-description {
+  width: 410px;
+}
+.main__subscribe-description p {
+  color: #4F5665;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.main__subscribe-button {
+  margin-top: 28px;
+}
