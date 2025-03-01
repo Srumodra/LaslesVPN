@@ -23,13 +23,11 @@
   }
   .footer {
     flex: 0 0 auto;
-    border:1px solid red;
-    width: 100%;
-    background-color: #F8F8F8;
   }
   .header__logo {
     display: flex;
     align-items: center;
+    color: #F8F8F8;
 
   }
   .header__logo-img {
@@ -509,13 +507,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #F8F8F8;
+  background-color: none;
 }
-
-/* .footer__wraper {
-  display: flex;
-  flex-direction: column;
-} */
 
 .footer__wraper-logo {
   display: flex;
@@ -621,6 +614,26 @@ margin-left: 231px;
 }
 
 .footer__wraper-engage h3 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500px;
+  margin-bottom: 20px;
+}
+
+.footer__wraper-earn-money {
+  margin-left: 126px;
+}
+
+.footer__wraper-earn-money li {
+  list-style: none;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400px;
+  color: #4F5665;
+  font-family: 'Rubik'
+}
+
+.footer__wraper-earn-money h3 {
   font-size: 18px;
   line-height: 30px;
   font-weight: 500px;
