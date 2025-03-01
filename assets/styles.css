@@ -586,3 +586,23 @@
   color: #AFB5C0;
   margin-top: 30px;
 }
+
+.footer__wraper-product {
+margin-left: 231px;
+}
+
+.footer__wraper-product li {
+  list-style: none;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400px;
+  color: #4F5665;
+  font-family: 'Rubik'
+}
+
+.footer__wraper-product h3 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500px;
+  margin-bottom: 20px;
+}
