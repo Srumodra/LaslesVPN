@@ -8,9 +8,11 @@
   </head>
   <body>
     <div class="wrapper">
+      <!--  header vse horosho po html -->
       <header class="header">
         <div class="header__logo">
           <img class="header__logo-img" src="./public/logo.svg" alt="Logo" />
+          <!-- Текст белый/ исправил -->
           <h1 class="header__logo-text">Lasles<b>VPN</b></h1>
         </div>
 
@@ -33,12 +35,29 @@
       <main class="main">
         <div class="main__welcome-block">
           <div class="main__welcome-block-text">
+            <!-- когда указываешь номер какого-то блока, то это 
+             модификатор = ' -- ' bold-name--first 
+             модификатор - указывает на свойство блока и отвечает на вопрос какой какая какие
+             первый,второй, розовый, красный, активный  -->
+
+            <!-- семантически правильно указывать только 1 h1 на странице,
+            в основном это Лого или как тут самый большой текст на странице -->
+
+            <!-- отступы после h1 -->
             <h1>
               Want anything to be easy with
               <span class="main__welcome-block-text-bold-name-1"
                 >LaslesVPN</span
               >
             </h1>
+
+
+            <!--
+             Тут лучше сделать одним <p> и указать в  css max-width:n px
+              и если необходимо text-wrap , тогда блок <p> будет сам переносить текст 
+                где ему надо + это задел на адаптивную верстку  ненадо будет запариваться с этим блоком 
+              
+              -->
             <p>
               Provide a network for all your needs with ease and fun using
               <span class="main__welcome-block-text-bold-name-2"
@@ -48,6 +67,8 @@
             </p>
             <button class="buttons-item--red">Get Started</button>
           </div>
+
+          <!-- див не обязательный, лишний код усложняет понимание я зн что тебе так проще но все же -->
           <div class="main__welcome-block-img">
             <img
               src="./public/main_block_text.png"
@@ -55,7 +76,7 @@
             />
           </div>
         </div>
-
+<!-- тут норм -->
         <div class="main__statistic">
           <div class="main__statistic-info">
             <img
@@ -93,6 +114,7 @@
         </div>
 
         <div class="main__features">
+          <!-- лишний див как выше -->
           <div class="main__features-img">
             <img
               src="./public/features.png"
@@ -124,6 +146,7 @@
           </div>
           <div class="main__plan-selection">
             <div class="main__plan-selection-tariffs">
+              <!-- по сути лишний див wrapper все тоже самое накинула на selection-tarrifs и ниче не поменяется -->
               <div class="main__plan-selection-tariffs--wrapper">
                 <img
                   class="main__plan-selection-img"
@@ -142,6 +165,7 @@
                 <div class="main__plan-selection-tariffs-price-free">
                   <h1>Free</h1>
                 </div>
+                <!-- лишний див-обертка на баттон  -->
                 <div class="main__plan-selection-tariffs--buttons">
                   <button
                     class="buttons-item--transparent-red main__plan-selectionbutton-buttons"
@@ -171,6 +195,7 @@
                   </div>
                 </div>
                 <div class="main__plan-selection-tariffs-price-standart">
+                  <!-- вот тут точно не стоило h1 юзать ))))  -->
                   <h1>$9<span>/ mo</span></h1>
                 </div>
                 <div class="main__plan-selection-tariffs--buttons">
@@ -214,6 +239,18 @@
         </div>
 
         <div class="main__location">
+          <!-- опять же лишний див, когда у тебя идет div а потом сразу еще один div и на 
+           этом блок заканчивается типо вот так
+          <div>
+            <div>
+              ...content
+            </div>
+          </div>
+
+          такая структура в ОСНОВНОМ бессмыслена т.к. накидываешь стили на верхний див и все
+           тоже самое получается,
+          исключение , когда действительно нужна обертка типо модалки или заднего фона и т.д.
+          -->
           <div class="main__location-title">
             <h1 class="block__title">Huge Global Network of Fast VPN</h1>
             <p>
@@ -223,6 +260,7 @@
           </div>
         </div>
         <div class="main__location-map">
+          <!-- этот и ниже сооответственно -->
           <img
             class="main__location-map-img"
             src="./public/map.svg"
@@ -246,6 +284,7 @@
             </p>
           </div>
           <div class="main__reviews-slider">
+            <!-- немного запутанное именование классов, нужно было итем делитнуть и итем-мейн = итем -->
             <div class="main__reviews-slider-item">
               <div class="main__reviews-slider-item-main">
                 <div class="main__reviews-slider-item-main-reviewer">
@@ -358,7 +397,9 @@
       </main>
 
       <footer class="footer">
+        <!-- тоже , хотя мб тут и надо но мне лень ссс смотреть))) -->
         <div class="footer__container">
+          <!-- путающее именование классов -->
           <div class="footer__wraper">
             <div class="footer__wraper-logo">
               <div class="footer__wraper-logo-img">
@@ -366,8 +407,10 @@
                 
               </div>
               <div class="footer__wraper-logo-lable">
+
                 <h1>Lasles<span>VPN</span></h1>
               </div>
+              <!-- лишний див -->
               <div class="footer__logo-text">
                 <p>
                   <span>LaslesVPN</span> is a private virtual network that has
@@ -381,35 +424,42 @@
              <button><img src="./public/Twitter.svg" alt="Twitter logo" /></button>
              <button><img src="./public/Instagram.svg" alt="Instagram logo" /></button>
             </div>
+            <!-- лишний див -->
             <div class="footer__logo-copyright">
               <p>©2020Lasles<b>VPN</b></p>
             </div>
           </div>
           
           <div class="footer__wraper-product">
-            <ul><h3>Product</h3></ul>
+            <!-- ПОЧЕКАЙ ГДЕ ЗАКАНЧИВАЕТСЯ ЮЛ))) -->
+            <ul><h3>Product</h3>
             <li>Download</li>
             <li>Pricing</li>
             <li>Locations</li>
             <li>Server</li>
             <li>Countries</li>
             <li>Blog</li>
+          </ul>
           </div>
 
           <div class="footer__wraper-engage">
-            <ul><h3>Engage</h3></ul>
+            <!-- ПОЧЕКАЙ ГДЕ ЗАКАНЧИВАЕТСЯ ЮЛ)))  ЕНГАГЕ  -->
+
+            <ul><h3>Engage</h3>
             <li>LaslesVPN?</li>
             <li>FAQ</li>
             <li>Tutorials</li>
             <li>About Us</li>
             <li>Privacy Policy</li>
             <li>Terms of Service</li>
+          </ul>
           </div>
 
           <div class="footer__wraper-earn-money">
-            <ul><h3>Earn Money</h3></ul>
+            <ul><h3>Earn Money</h3>
             <li>Affiliate</li>
             <li>Become Partner</li>
+          </ul>
           </div>
         </div>
       </footer>

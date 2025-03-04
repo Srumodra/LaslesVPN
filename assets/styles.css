@@ -5,6 +5,11 @@
   body {
     height: 100%;
   }
+
+  /* лучше идти по порядку стилей т.к. возможно путаница с приоритезацией стилей 
+      типа если хтмл  сначала враппер потом хедер потом допустим лого, то в css так же 
+      по порядку должно идти.
+  */
   .header {
     display: flex;
     width: 100%;
@@ -27,7 +32,7 @@
   .header__logo {
     display: flex;
     align-items: center;
-    color: #F8F8F8;
+    color: black;
 
   }
   .header__logo-img {
