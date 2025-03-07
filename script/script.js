@@ -1,1 +1,5 @@
-console.log(16 + 1);
+'use strict'
+
+age = 10
+
+console.log(age)    
